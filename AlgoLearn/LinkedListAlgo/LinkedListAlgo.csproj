@@ -42,7 +42,9 @@
   <ItemGroup>
     <Compile Include="AlgoInSinglyLinkedList.cs" />
     <Compile Include="BoublyLinkedList.cs" />
+    <Compile Include="LinkedListInsertionAlgo.cs" />
     <Compile Include="Marge2LinkedList.cs" />
+    <Compile Include="PrintAlgoInLinkedList.cs" />
     <Compile Include="SinglyLinkedList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

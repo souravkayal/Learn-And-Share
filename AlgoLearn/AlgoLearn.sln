@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgoLearn", "AlgoLearn\AlgoLearn.csproj", "{6882952B-EAC7-400A-9F45-DEF984D266AE}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern", "DesignPattern\DesignPattern.csproj", "{1973225B-6E87-43DC-AA0A-A49099A5AA0F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedListAlgo", "LinkedListAlgo\LinkedListAlgo.csproj", "{4E7F46D9-8CF5-42CB-BB1B-7F6B6FE4D2C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayAndHashAlgo", "ArrayAndHashAlgo\ArrayAndHashAlgo.csproj", "{9465AC8D-C732-4675-9953-9D6B2277AB46}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{4E7F46D9-8CF5-42CB-BB1B-7F6B6FE4D2C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E7F46D9-8CF5-42CB-BB1B-7F6B6FE4D2C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E7F46D9-8CF5-42CB-BB1B-7F6B6FE4D2C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9465AC8D-C732-4675-9953-9D6B2277AB46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9465AC8D-C732-4675-9953-9D6B2277AB46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9465AC8D-C732-4675-9953-9D6B2277AB46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9465AC8D-C732-4675-9953-9D6B2277AB46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -50,10 +50,7 @@ namespace SinglyLinkedListAlgo
             }
             return Sum;
         }
-
-        public void 
-
-
+        
 
     }
 }

@@ -4,13 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AlgoForFun
+namespace ArrayAndHashAlgo
 {
-    class Program
+    public class LongestConsicutiveSubArray
     {
-        static void Main(string[] args)
+        public void ReturnLongestSubArray(int []Array)
         {
-
+            
+            
         }
+
     }
 }
