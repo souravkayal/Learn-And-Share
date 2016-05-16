@@ -4,17 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6882952B-EAC7-400A-9F45-DEF984D266AE}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{804E0450-F907-43DA-94D2-5194B0199077}</ProjectGuid>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AlgoLearn</RootNamespace>
-    <AssemblyName>AlgoLearn</AssemblyName>
+    <RootNamespace>Matrix</RootNamespace>
+    <AssemblyName>Matrix</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +22,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -43,33 +40,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="FindSumOfSubMatrix.cs" />
+    <Compile Include="ModifyAllRowColumnByOne.cs" />
+    <Compile Include="PrintOnlyUniqueRowsInMatrix.cs" />
+    <Compile Include="RowWithMaximumOne.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Algo\StackAlgo.csproj">
-      <Project>{4fffb11a-1259-47db-b0f0-98ecdfe722fc}</Project>
-      <Name>StackAlgo</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\ArrayAndHashAlgo\ArrayAndHashAlgo.csproj">
-      <Project>{9465ac8d-c732-4675-9953-9d6b2277ab46}</Project>
-      <Name>ArrayAndHashAlgo</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\DesignPattern\DesignPattern.csproj">
-      <Project>{1973225b-6e87-43dc-aa0a-a49099a5aa0f}</Project>
-      <Name>DesignPattern</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\LinkedListAlgo\LinkedListAlgo.csproj">
-      <Project>{4e7f46d9-8cf5-42cb-bb1b-7f6b6fe4d2c7}</Project>
-      <Name>LinkedListAlgo</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Matrix\Matrix.csproj">
-      <Project>{804E0450-F907-43DA-94D2-5194B0199077}</Project>
-      <Name>Matrix</Name>
-    </ProjectReference>
+    <Compile Include="SumOfMatrix.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

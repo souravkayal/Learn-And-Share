@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedListAlgo", "LinkedLis
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayAndHashAlgo", "ArrayAndHashAlgo\ArrayAndHashAlgo.csproj", "{9465AC8D-C732-4675-9953-9D6B2277AB46}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matrix", "Matrix\Matrix.csproj", "{804E0450-F907-43DA-94D2-5194B0199077}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{9465AC8D-C732-4675-9953-9D6B2277AB46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9465AC8D-C732-4675-9953-9D6B2277AB46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9465AC8D-C732-4675-9953-9D6B2277AB46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{804E0450-F907-43DA-94D2-5194B0199077}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{804E0450-F907-43DA-94D2-5194B0199077}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{804E0450-F907-43DA-94D2-5194B0199077}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{804E0450-F907-43DA-94D2-5194B0199077}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
